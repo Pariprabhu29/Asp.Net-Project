@@ -40,7 +40,7 @@
         }
 
         function secondsToHHMM(seconds) {
-            let hours = Math.floor(seconds / 3600);
+               let hours = Math.floor(seconds / 3600);
             let minutes = Math.floor((seconds % 3600) / 60);
             return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
         }
